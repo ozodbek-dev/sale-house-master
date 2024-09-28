@@ -1,0 +1,1486 @@
+{
+	"common": {
+		"fields": {
+			"fromDate": "Boshlanish sanasi",
+			"endDate": "Tugash sanasi",
+			"login": "Login",
+			"password": "Parol",
+			"name": "Ismi",
+			"surname": "Familiyasi",
+			"middleName": "Sharifi",
+			"phone": "Telefon raqami",
+			"phone2": "Qo'shimcha telefon raqami",
+			"objectName": "Obyekt nomi",
+			"blockName": "Blok nomi",
+			"company": "Tashkilot",
+			"region": "Viloyat",
+			"city": "Tuman/Shahar",
+			"address": "Manzili",
+			"startTime": "Boshlanish vaqti",
+			"endTime": "Tugash vaqti",
+			"stage": "Qavatlar soni",
+			"blocksNumber": "Bloklar soni",
+			"image": "Rasm",
+			"currencyInSum": "So'mdagi miqdori",
+			"companyName": "Tashkilot nomi",
+			"companyDirector": "Tashkilot direktori",
+			"bank": "Bank nomi",
+			"tin": "STIR",
+			"mfo": "MFO",
+			"oked": "OKED",
+			"accountNumber": "Hisob raqam",
+			"companyAddress": "Tashkilot manzili",
+			"homeNumber": "Uy raqami",
+			"staffName": "Xodim nomi",
+			"staffRole": "Xodim roli",
+			"status": "Status",
+			"rooms": "Xonalar soni",
+			"homeAreAll": "Xona jami maydoni",
+			"currency": "Valyuta",
+			"repairedPrice": "Ta'mirlangan narxi (1 m<1>2</1>)",
+			"noRepairedPrice": "Ta'mirlanmagan narxi (1 m<1>2</1>)",
+			"startPrice": "Boshlang'ich to'lov",
+			"residentType": "Bino turi",
+			"repairType": "Ta'mir holati",
+			"plan": "Planirovka",
+			"planName": "Planirovka nomi",
+			"startNumber": "Boshlang'ich raqam",
+			"paymentAmount": "To'lov miqdori",
+			"paymentDate": "To'lov sanasi",
+			"typeId": "To'lov turi",
+			"date": "Sana",
+			"sourceName": "Manba nomi",
+			"typeName": "Tur nomi",
+			"clientName": "Mijoz nomi",
+			"source": "Manba",
+			"interest": "Qiziqishi turi",
+			"comment": "Kommentariya",
+			"orderNumber": "Tartib raqami",
+			"roomsOnFloor": "Qavatdagi uylar soni",
+			"hasBasement": "Yerto'la bilan",
+			"clientType": "Mijoz turi",
+			"passportSeries": "Passport seriyasi va raqami",
+			"issue": "Passport berilgan sana",
+			"birthday": "Tug'ilgan sanasi",
+			"authority": "Passport berilgan joy",
+			"home": "Yashash manzili",
+			"workPlace": "Ish joyi",
+			"firstPriceDate": "Birinchi to'lov sanasi",
+			"interval": "Vaqt oralig'i",
+			"contractName": "Shartnoma nomi",
+			"contractDate": "Shartnoma tuzilgan sana",
+			"clientId": "Mijoz id",
+			"month": "To'lov muddati(oy)",
+			"discount": "Chegirma miqdori",
+			"sumAll": "Jami to'lov summasi",
+			"homeId": "Uy id",
+			"staff": "Mas'ul xodim",
+			"startDate": "Boshlang'ich to'lov sanasi",
+			"startPriceAmount": "Boshlang'ich to'lov miqdori",
+			"loanRepayment": "Kredit qaytarish muddati(oy)",
+			"sum": "Summasi",
+			"contractSum": "Shartnoma summasi",
+			"leftSum": "Qoldiq summa",
+			"contractNumber": "Shartnoma raqami"
+		},
+		"table": {
+			"date": "Sana",
+			"sum": "Summasi",
+			"paymentSum": "To'lov summasi",
+			"leftSum": "Qolgan summa",
+			"typeId": "To'lov turi",
+			"staff": "Mas'ul xodim",
+			"contractNumber": "Shartnoma raqami",
+			"contractName": "Shartnoma nomi",
+			"homeNumber": "Uy raqami",
+			"custom": "Mijoz",
+			"clientType": "Mijoz turi",
+			"square": "Maydoni",
+			"contractSum": "Shartnoma summasi",
+			"startPrice": "Boshlang'ich to'lov",
+			"penalty": "Peniya",
+			"stage": "Qavati",
+			"rooms": "Xonalar soni",
+			"blockName": "Blok nomi",
+			"objectName": "Obyekt nomi",
+			"homeDetails": "<span>Uy ma'lumotlari (q.|x.s.|m<sup>2</sup>)</span>",
+			"repairedPrice": "<span>Ta'mirlangan narxi (1m<sup>2</sup>)</span>",
+			"noRepairedPrice": "<span>Ta'mirlanmagan narxi (1m<sup>2</sup>)</span>",
+			"repairType": "Ta'mir holati",
+			"residentType": "Bino turi (Turar/Noturar)",
+			"status": "Status",
+			"name": "Nomi",
+			"regionName": "Viloyat nomi",
+			"companyName": "Kompaniya nomi",
+			"city": "Shahar",
+			"address": "Manzili",
+			"startDate": "Boshlanish vaqti",
+			"endDate": "Tugash vaqti",
+			"homeFloor": "Qavatliligi",
+			"blocksNumber": "Bloklar soni",
+			"currencyInSum": "So'mdagi miqdori",
+			"oldSum": "Eski to'lov summasi",
+			"oldType": "Eski to'lov turi",
+			"newSum": "Yangi to'lov summasi",
+			"newType": "Yangi to'lov turi",
+			"changeDate": "O'zgartirilgan sana",
+			"priceForSquare": "<span>1 m<sup>2</sup> maydon uchun to'lov miqdori</span>",
+			"arrear": "Qarzdorlik",
+			"expenseNumber": "Chiqim raqami",
+			"expenseSum": "Chiqim miqdori",
+			"expensePaymentType": "Chiqim turi",
+			"expenseComment": "Chiqim maqsadi",
+			"director": "Direktor",
+			"staffName": "Xodim nomi",
+			"staffRole": "Xodim roli",
+			"login": "Login",
+			"paymentId": "To'lov raqami",
+			"paymentAmount": "To'lov miqdori",
+			"paid": "To'langan",
+			"personName": "Ismi",
+			"surname": "Familiyasi",
+			"middleName": "Sharifi",
+			"phone": "Telefon raqami",
+			"homesOnFloor": "Qavatdagi uylar soni",
+			"homesAll": "Jami xonalar soni",
+			"actions": "Amallar"
+		},
+		"filter": {
+			"blocks": "Bloklar",
+			"block": "Blok",
+			"status": "Status",
+			"number": "Uy raqami",
+			"repairType": "Uy holati",
+			"residentType": "Bino turi",
+			"roomsNumber": "Xonalar soni",
+			"homeStage": "Uy qavati",
+			"area": {
+				"from": "Uy maydoni(m<1>2</1> dan)",
+				"till": "Uy maydoni(m<1>2</1> gacha)"
+			},
+			"noRepairedPrice": "1 m<1>2</1> ta'mirsiz narxi",
+			"areaAll": "Umumiy maydoni",
+			"stage": "Qavati",
+			"onlyEmptyHomes": "Faqat bo'sh uylar"
+		},
+		"tooltip": {
+			"reUpload": "Qayta yuklash",
+			"viewPlan": "Planirovkani ko'rish"
+		},
+		"pagination": {
+			"next": "Keyingi sahifa",
+			"prev": "Oldingi sahifa",
+			"firstPage": "Birinchi sahifa",
+			"lastPage": "Oxirgi sahifa"
+		},
+		"button": {
+			"cancel": "Bekor qilish",
+			"delete": "O'chirish",
+			"save": "Saqlash",
+			"clearFilter": "Filtrni tozalash",
+			"back": "Ortga",
+			"next": "Oldinga",
+			"filter": "Filtr",
+			"homePlan": "Uy plani",
+			"order": "Band qilish",
+			"imageUpload": "Rasmni yuklash",
+			"edit": "Tahrirlash",
+			"accept": "Tasdiqlash",
+			"reject": "Rad qilish",
+			"pay": "To'lov qilish",
+			"change": "O'zgartirish"
+		},
+		"alerts": {
+			"success": {
+				"updated": "\"{{value}}\" ma'lumotlari muvaffaqiyatli yangilandi!",
+				"delete": "Element muvaffaqiyatli o'chirildi!",
+				"login": "Siz tizimga muvaffaqiyatli kirdingiz!",
+				"logOut": "Siz tizimdan muvaffaqiyatli chiqdingiz!",
+				"created": "Yangi \"{{value}}\" muvaffaqiyatli yaratildi!"
+			},
+			"error": {
+				"delete": "O'chirish jarayonida xatolik yuz berdi!",
+				"noConnection": "Internet bilan aloqa mavjud emas!"
+			},
+			"warning": {
+				"onlyExcelFormat": "Iltimos faqat .xls va .xlsx formatdagi fayllarni yuklang!",
+				"fileSize": "Rasm hajmi {{value}}Kb dan ko'p bo'lishi lozim!"
+			}
+		},
+		"modal": {
+			"delete": {
+				"title": "Siz ushbu elementni o'chirishni xohlaysizmi?",
+				"body": "Agar siz ushbu elementni o'chirsangiz amalni qaytarishni imkoni bo'lmaydi!"
+			}
+		},
+		"errors": {
+			"message": "Xalotik xabari:"
+		},
+		"warnings": {},
+		"language": {
+			"title": "Til",
+			"short": {
+				"uz": "O'z",
+				"uz_kr": "Ўз",
+				"ru": "Ru"
+			},
+			"long": {
+				"uz": "O'zbekcha",
+				"uz_kr": "Ўзбекча",
+				"ru": "Ruscha"
+			}
+		},
+		"global": {
+			"item": "Element",
+			"search": "Qidiruv",
+			"emptyHomes": "Bo'sh",
+			"soldHomes": "Sotilgan",
+			"orderedHomes": "Band",
+			"noDataFound": "Ma'lumotlar topilmadi!",
+			"noBlocksFound": "Bloklar topilmadi!",
+			"noNotifications": "Bildirishnomalar yo'q!",
+			"meter": "m<1>2</1>"
+		},
+		"errorPage": {
+			"notFound": {
+				"goBack": "Ortga qaytish"
+			}
+		},
+		"typeList": {
+			"role": {
+				"admin": "Admin",
+				"cashier": "Kassa",
+				"boss": "Boss",
+				"client": "Mijoz",
+				"manager": "Menejer",
+				"operator": "Operator"
+			},
+			"resident": {
+				"residential": "Turar",
+				"nonResidential": "Noturar"
+			},
+			"client": {
+				"physical": "Jismoniy shaxs",
+				"legal": "Yuridik shaxs"
+			},
+			"contractStatus": {
+				"active": "Faol",
+				"complete": "Tugallangan",
+				"cancel": "Bekor qilingan"
+			},
+			"currencyType": {
+				"sum": "",
+				"valute": ""
+			},
+			"homeType": {
+				"active": "Bo'sh",
+				"time": "Band qilingan",
+				"ordered": "Sotilgan",
+				"disabled": "Nofaol"
+			},
+			"orderType": {
+				"new": "Faol",
+				"ordered": "Shartnoma qilingan",
+				"cancelled": "Bekor qilingan"
+			},
+			"paymentType": {
+				"cash": "Naqd",
+				"p2p": "P2P",
+				"bank": "Bank",
+				"card": "Karta",
+				"act": "AKT"
+			},
+			"repairType": {
+				"notRepaired": "Ta'mirsiz",
+				"repaired": "Ta'mirli"
+			}
+		}
+	},
+	"xlsxUploader": {
+		"fileName": "Fayl nomi",
+		"pasteHere": "Faylni bu yerga tashlang yoki",
+		"clickToUpload": "Tugmani bosib yuklang"
+	},
+	"login": {
+		"title": "Kirish",
+		"validation": {
+			"loginRequired": "Loginni kiritish majburiy!",
+			"passwordMin": "Parol kamida {{value}} ta belgidan iborat bo'lishi lozim!",
+			"passwordRequired": "Parolni kiritish majburiy!"
+		},
+		"button": "Kirish"
+	},
+	"sidebar": {
+		"dashboard": "Bosh sahifa",
+		"homes": "Uylar",
+		"order": "Band qilinganlar",
+		"object": "Obyektlar",
+		"shaxmatka": "Shaxmatka",
+		"contract": "Shartnoma",
+		"payment": "To'lov",
+		"currency": "Valyuta",
+		"client": "Mijozlar",
+		"lead": "Lidlar",
+		"news": "Yangiliklar",
+		"arrear": "Qarzdorlik",
+		"message": "SMS",
+		"change": "O'zgarishlar",
+		"paymentChange": "To'lov o'zgarishlari",
+		"block": "Bloklar",
+		"settings": "Sozlash",
+		"profile": "Profil",
+		"actions": {
+			"logout": "Chiqish",
+			"close": "Yopish uchun <1>[</1> ni bosing",
+			"open": "Ochish uchun <1>]</1> ni bosing"
+		}
+	},
+	"dashboard": {
+		"title": "Bosh sahifa",
+		"monthlyPaymentsGraph": "Oylik tushumlar garafigi",
+		"contractsGraph": "Shartnomalar garafigi",
+		"futureIncomeGraph": {
+			"title": "Jami to'lovlar garafigi",
+			"all": "Jami to'lovlar",
+			"paid": "To'langan",
+			"paidQuantity": "To'langanlar miqdori",
+			"notPaid": "To'lanmagan",
+			"notPaidQuantity": "To'lanmaganlar miqdori"
+		},
+		"debtsGraph": {
+			"title": "Qarzdorliklar haqida garafik",
+			"all": "Umumiy qarzdorliklar",
+			"monthly": "Oylik qarzdorliklar"
+		},
+		"leadsGraph": "Lidlar garafigi",
+		"leadSourcesGraph": "Lid manbalari garafigi",
+		"freeHomesGraph": {
+			"title": "Bo'sh uylar haqidagi ma'lumotlar",
+			"all": "Jami bo'sh uylar soni",
+			"freeBlocks": {
+				"title": "Bo'sh uylari mavjud bloklar",
+				"name": "Nomi",
+				"freeHomesNumber": "Bo'sh uylar soni"
+			},
+			"freeObjects": "Bo'sh uylari mavjud obyektlar"
+		}
+	},
+	"homes": {
+		"title": "Uylar",
+		"tooltip": {
+			"debtsByBlock": "Blok bo'yicha qarzdorlik ro'yxati",
+			"freeHomesByBlock": "Blok bo'yicha bo'sh uylar ro'yxati",
+			"detailsByBlock": "Blok bo'yicha umumiy ma'lumotlar"
+		}
+	},
+	"order": {
+		"title": "Band qilinganlar ro'yxati",
+		"modal": {
+			"add": {
+				"title": "Uy ma'lumotlari",
+				"validation": {
+					"name": "Ismni kiritish majburiy!",
+					"middleName": "Sharifni kiritish majburiy!",
+					"surname": "Familiyani kiritish majburiy!",
+					"phone": "Telefon raqamni kiritish majburiy!",
+					"phoneValid": "Telefon raqami to'g'ri kiritilishi lozim!"
+				},
+				"alerts": {
+					"clientSuccess": "Yangi mijoz muvaffaqiyatli yaratildi!",
+					"homeSuccess": "Uy muvaffaqiyatli band qilindi!"
+				},
+				"addClient": "Mijoz yaratish",
+				"home": {
+					"title": "Xonadon",
+					"blockName": "Blok nomi",
+					"homeNumber": "Uy raqami",
+					"rooms": "Xonalar soni",
+					"areaAll": "Uy jami maydoni",
+					"stage": "Uy qavati",
+					"repairedPrice": "Ta'mirlangan narxi (1 m<1>2</1>)",
+					"noRepairedPrice": "Ta'mirlanmagan narxi (1 m<1>2</1>)",
+					"startPrice": "Boshlang'ich to'lov",
+					"residentType": "Bino turi",
+					"repairType": "Ta'mir holati"
+				},
+				"additional": "Qo'shimcha",
+				"lastDate": "Buyurtmaning oxirgi muddati"
+			},
+			"view": {
+				"title": "Buyurtma",
+				"alerts": {
+					"cancel": "Buyurtma muvaffaqiyatli bekor qilindi!"
+				},
+				"client": "Mijoz",
+				"home": {
+					"title": "Uy",
+					"details": "{{stage}}-qavat, {{rooms}} xonali"
+				},
+				"area": "Maydoni",
+				"address": "Manzili",
+				"repairedPrice": "Ta'mirlangan narxi (1 m<1>2</1>)",
+				"noRepairedPrice": "Ta'mirlanmagan narxi (1 m<1>2</1>)",
+				"leftDate": "Qolgan muddat",
+				"status": "Status",
+				"staff": "Mas'ul xodim"
+			}
+		}
+	},
+	"object": {
+		"title": "Obyektlar ro'yxati",
+		"editTitle": "Obyekt ma'lumotlarini yangilash",
+		"addTitle": "Obyekt yaratish",
+		"validation": {
+			"name": "Obyekt nomini kiritish majburiy!",
+			"nameMin": "Obyekt nomi kamida {{value}} ta belgidan iborat bo'lishi kerak!",
+			"regionId": "Viloyatni tanlash majburiy!",
+			"companiesId": "Tashkilotni tanlash majburiy!",
+			"city": "Shahar nomini kiritish majburiy!",
+			"address": "Tashkilot manzilini kiritish majburiy!",
+			"start": "Boshlanish vaqtini kiritish majburiy!",
+			"startValid": "Boshlanish vaqti to'g'ri bo'lishi kerak!",
+			"end": "Tugash vaqtini kiritish majburiy!",
+			"endValid": "Tugash vaqti to'g'ri bo'lishi kerak!",
+			"endMin": "Tugash vaqti boshlanish vaqtidan oldin bo'lishi mumkin emas!",
+			"stage": "Bino qavatliligini kiritish majburiy!",
+			"padez": "Bloklar sonini kiritish majburiy!"
+		}
+	},
+	"shaxmatka": {
+		"title": "Shaxmatka ro'yxat",
+		"shortTitle": "Shaxmatka",
+		"validation": {
+			"rooms": "Xonalar sonini kiritish majburiy!",
+			"square": "Uyning jami maydonini kiritish majburiy!",
+			"start": "Boshlang'ich to'lovni kiritish majburiy!",
+			"islive": "Bino turi tanlanilishi shart!",
+			"repaired": "Uyning ta'mirlangan narxini kiritish majburiy!",
+			"norepaired": "Uyning ta'mirlanmagan narxini kiritish majburiy!",
+			"isrepaired": "Ta'mir holati tanlanilishi shart!"
+		},
+		"alerts": {
+			"warning": {
+				"invalidHome": "Buyurtma qilingan, sotilgan yoki nofaol uyning ma'lumotlarini yangilash mumkin emas!"
+			},
+			"success": {
+				"homesUpdated": "Uylar ma'lumotlari muvaffaqiyatli yangilandi!"
+			}
+		},
+		"homeType": {
+			"disabled": "Nofaol",
+			"ordered": "Band qilingan",
+			"sold": "Sotilgan",
+			"free": "Bo'sh"
+		},
+		"type": {
+			"shaxmatka1": "Shaxmatka1",
+			"shaxmatka2": "Shaxmatka2",
+			"table": "Jadval"
+		},
+		"changeMultiple": "Bir nechta uyni tahrirlash",
+		"withPlan": "Planirovka bilan o'zgartirish",
+		"numerationModal": {
+			"title": "Bino uylarini raqamlash",
+			"fromTop": "Yuqoridan",
+			"fromBottom": "Pastdan"
+		},
+		"card": {
+			"company": "Tashkilot",
+			"region": "Viloyat",
+			"city": "Shahar"
+		},
+		"mode": {
+			"view": "Ko'rish rejimi",
+			"edit": "Tahrirlash rejimi"
+		},
+		"homeDetail": {
+			"title": "{{blockName}} №{{homeNumber}} uy ma'lumotlari",
+			"contractNumber": "Shartnoma raqami",
+			"custom": "Mijoz",
+			"phone": "Tel. raqami",
+			"phone2": "Tel2. raqami",
+			"homeNumber": "Uy raqami",
+			"stage": "Qavati",
+			"rooms": "Xonalar soni",
+			"areaAll": "Umumiy maydoni",
+			"priceForSquare": "m<1>2</1> narxi",
+			"startPrice": "Boshlang'ich to'lov",
+			"repaired": "m<1>2</1> ta'mirli",
+			"norepaired": "m<1>2</1> ta'mirsiz",
+			"residentType": "Bino turi",
+			"repairType": "Ta'mir holati",
+			"position": "Holati",
+			"orderHome": "Uyni band qilish",
+			"goToContract": "Shartnomaga o'tish"
+		},
+		"table": {
+			"number": "Uy raqami",
+			"stage": "Qavati",
+			"rooms": "Xonalar soni",
+			"square": "Umumiy maydoni",
+			"repaired": "1 m<1>2</1> ta'mirli narxi",
+			"norepaired": "1 m<1>2</1> ta'mirsiz narxi",
+			"start": "Boshlang'ich to'lov",
+			"islive": "Bino turi (Turar/Noturar)",
+			"isrepaired": "Ta'mir holati",
+			"status": "Holati",
+			"error": "Xatolik yuz berdi"
+		}
+	},
+	"contract": {
+		"title": "Shartnomalar ro'yxati",
+		"completed": "Tugallangan",
+		"cancelled": "Bekor qilingan",
+		"add": {
+			"title": "Shartnoma yaratish",
+			"step": {
+				"custom": "Mijoz",
+				"home": "Xonadon",
+				"payment": "To'lov",
+				"contract": "Shartnoma"
+			},
+			"details": "{{stage}}-qavat, {{rooms}} xonali",
+			"month": "{{value}} oy"
+		},
+		"view": {
+			"title": "Shartnoma",
+			"header": {
+				"sum": "Shartnoma summasi",
+				"startPrice": "Boshlang'ich to'lov",
+				"priceForSquare": "1 m<1>2</1> uchun to'lov miqdori",
+				"discount": "Chegirma miqdori",
+				"monthlyLeft": "Oylik qarzdorlik",
+				"noMonthlyLeft": "Mavjud emas",
+				"leftPrice": "Qolgan to'lov miqdori",
+				"comment": "Kommentariya"
+			},
+			"homeDetail": {
+				"objectName": "Obyekt nomi",
+				"blockName": "Blok nomi",
+				"homeNumber": "Uy raqami",
+				"stage": "Qavati",
+				"rooms": "Xonalar soni",
+				"area": "Maydoni",
+				"isrepaired": "Ta'mir holati"
+			},
+			"clientPhysical": {
+				"custom": "Mijoz",
+				"birthday": "Tug'ilgan sanasi",
+				"phone": "Telefon raqami",
+				"passportSeries": "Passport seriya raqami",
+				"issue": "Passport berilgan sana",
+				"authority": "Passport berilgan joy",
+				"home": "Yashash manzili",
+				"workPlace": "Ish joyi"
+			},
+			"clientLegal": {
+				"name": "Tashkilot nomi",
+				"phone": "Telefon raqami",
+				"address": "Tashkilot manzili",
+				"accountNumber": "Tashkilot hisob raqami",
+				"tin": "Tashkilot STIR(INN)",
+				"mfo": "Tashkilot MFO",
+				"oked": "Tashkilot OKED"
+			},
+			"action": {
+				"refresh": "Ma'lumotlarni yangilash",
+				"download": "Shartnomani yuklab olish",
+				"uploadPaymentTable": "To'lov grafigini yuklash",
+				"uploadPayments": "Qilingan to'lovlarni yuklash"
+			},
+			"staff": "Shartnoma tuzgan mas'ul xodim",
+			"paymentHistory": "To'lov tarixi",
+			"paymentTable": "To'lov grafigi",
+			"completed": "Shartnoma tugallangan",
+			"uploadPaymentsListAndHistory": {
+				"title": {
+					"paymentTable": "Shartnoma to'lov grafigini yuklash",
+					"payments": "Shartnomaga qilingan to'lovlarni yuklash"
+				},
+				"alerts": {
+					"success": {
+						"paymentTable": "Ushbu shartnomaga to'lov grafigi muvaffaqiyatli yuklandi!",
+						"payments": "Ushbu shartnomaga qilingan to'lovlar muvaffaqiyatli yuklandi!"
+					}
+				},
+				"options": {
+					"paymentSum": "To'lov summasi",
+					"paymentDate": "To'lov sanasi",
+					"typeId": "To'lov turi"
+				}
+			}
+		},
+		"modal": {
+			"cancel": {
+				"title": "Shartnoma № {{value}} ni bekor qilish",
+				"alerts": {
+					"success": {
+						"cancelled": "Shartnoma muvaffaqiyatli bekor qilindi!",
+						"updated": "Shartnoma № \"{{value}}\" mijozi muvaffaqiyatli o'zgartirildi!"
+					}
+				},
+				"clientsData": "Mijozlar bazasi",
+				"noClientFound": "Bunday mijoz bazadan topilmadi!",
+				"changeClient": "Boshqa mijozga o'tkazish",
+				"contractCancel": "Shartnomani bekor qilish",
+				"closeWindow": "Oynani yopish"
+			},
+			"documentDownload": {
+				"title": "Shartnoma № {{value}}",
+				"uzbekContract": "O'zbek tilidagi shartnoma",
+				"homePage": "Bosh sahifaga"
+			},
+			"homeOrder": {
+				"title": "Yangi xonadon buyurtma qilish",
+				"validation": {
+					"objectId": "Obyektni tanlash majburiy!",
+					"blockId": "Blokni tanlash majburiy!",
+					"homeId": "Uyni tanlash majburiy!",
+					"date": "Buyurtmaning oxirgi muddati kiritish majburiy!",
+					"dateValid": "Vaqti to'g'ri bo'lishi kerak!"
+				},
+				"alerts": {
+					"success": "Uy muvaffaqiyatli band qilindi!"
+				},
+				"details": "{{stage}}-qavat, {{rooms}} xonali, {{square}} m<1>2</1>",
+				"lastDate": "Buyurtmaning oxirgi muddati"
+			},
+			"paymentHistory": {
+				"title": "Shartnoma № {{value}} to'lovlar tarixi"
+			},
+			"paymentList": {
+				"title": "Shartnoma № {{value}} to'lov grafigi",
+				"action": {
+					"paid": "To'landi",
+					"notPaid": "To'lanmagan",
+					"halfPaid": "Chala to'langan"
+				},
+				"downloadPaymentList": "To'lov grafigini yuklab olish"
+			}
+		},
+		"step": {
+			"one": {
+				"validation": {
+					"physical": {
+						"name": "Ismni kiritish majburiy!",
+						"middleName": "Sharifni kiritish majburiy!",
+						"surname": "Familiyani kiritish majburiy!",
+						"phone": "Telefon raqamni kiritish majburiy!",
+						"phoneValid": "Telefon raqami to'g'ri kiritilishi lozim!",
+						"phone2Valid": "Qo'shimcha telefon raqami to'g'ri kiritilishi lozim!",
+						"passportSeries": "Passport seriya raqamini kiritish majburiy!",
+						"issue": "Passport berilgan sanani kiritish majburiy!",
+						"issueValid": "Vaqti to'g'ri bo'lishi kerak!",
+						"authority": "Passport berilgan joyni kiritish majburiy!",
+						"birthday": "Tug'ilgan sanani kiritish majburiy!",
+						"birthdayValid": "Vaqti to'g'ri bo'lishi kerak!",
+						"region": "Viloyatni tanlash majburiy!",
+						"city": "Shaharni kiritish majburiy!",
+						"address": "Yashash manzilini kiritish majburiy!",
+						"workPlace": "Ish joyini kiritish majburiy!"
+					},
+					"legal": {
+						"name": "Tashkilot nomini kiritish majburiy!",
+						"phone": "Telefon raqamni kiritish majburiy!",
+						"phoneValid": "Telefon raqami to'g'ri kiritilishi lozim!",
+						"phone2Valid": "Qo'shimcha telefon raqami to'g'ri kiritilishi lozim!",
+						"region": "Viloyatni tanlash majburiy!",
+						"city": "Shaharni kiritish majburiy!",
+						"address": "Tashkilot manzilini kiritish majburiy!",
+						"tin": "Tashkilotning STIR ini kiritish majburiy!",
+						"mfo": "Tashkilotning MFO sini kiritish majburiy!",
+						"oked": "Tashkilotning OKED ini kiritish majburiy!",
+						"accountNumber": "Tashkilotning hisob raqamini kiritish majburiy!",
+						"accountNumberMin": "Tashkilot hisob raqami kamida {{ value }} ta belgidan iborat bo'lishi kerak!",
+						"accountNumberMax": "Tashkilot hisob raqami ko'pi bilan {{ value }} ta belgidan iborat bo'lishi kerak!",
+						"bank": "Bank nomini kiritish majburiy!"
+					}
+				},
+				"clientsData": "Mijozlar bazasi",
+				"noClientFound": "Bunday mijoz bazadan topilmadi!"
+			},
+			"two": {
+				"alerts": {
+					"warning": "Iltimos berilgan uylardan birini tanlang!"
+				},
+				"home": "Xonadon",
+				"stage": "Qavati",
+				"area": "Maydoni",
+				"block": "Bino",
+				"clientOrders": "Mijozlar buyurtmalari",
+				"orderNewHome": "Yangi xonadon buyurtma qilish",
+				"homeDetails": "{{stage}}-qavat, {{rooms}} xonali",
+				"noOrdersFound": "Mijoz band qilgan uylar yo'q!"
+			},
+			"three": {
+				"title": "Shartnoma to'lovlari",
+				"repairType": {
+					"notRepaired": "Ta'mirsiz",
+					"repaired": "Ta'mirli"
+				},
+				"oneMeterSquare": "1 m<1>2</1>",
+				"fields": {
+					"priceForSquare": "1 m<1>2</1> narxi",
+					"calculateByAllSum": "Jami summa orqali hisoblash",
+					"sum": "Summa",
+					"month": "Necha oy",
+					"date": "To'lovning birinchi sanasi"
+				},
+				"automaticTable": "To'lov jadvalini avtomatik shakllantirish",
+				"manuallyTable": "To'lov jadvalini qo'lda shakllantirish",
+				"sumAll": "Jami summa",
+				"leftSum": "Qoldiq summa",
+				"addPayment": "Jadvalga to'lov qo'shish",
+				"deleteAll": "Barchasini o'chirish",
+				"validation": {
+					"month": "To'lov muddati(necha oyda)ni kiritish majburiy!",
+					"date": "Birinchi to'lov sanasini kiritish majburiy!",
+					"dateValid": "Vaqti to'g'ri bo'lishi kerak!",
+					"dateMin": "Sana 2000-yildan katta bo'lishi lozim!",
+					"startDate": "Boshlang'ich to'lov sanasini kiritish majburiy!",
+					"startDateValid": "Vaqti to'g'ri bo'lishi kerak!",
+					"startDateMin": "Sana 2000-yildan katta bo'lishi lozim!",
+					"sum": "Shartnoma summasini kiritish majburiy!",
+					"left": "Qoldiq summa kiritish majburiy!",
+					"interval": "Vaqt oralig'ini kiritish majburiy!",
+					"startPrice": "Boshlang'ich to'lov miqdorini kiritish majburiy!",
+					"priceForSquare": "1 m<1>2</1> narxini kiritish majburiy!",
+					"contractName": "Shartnoma raqamini kiritish majburiy!",
+					"paymentPrice": "Summani kiritish majburiy",
+					"paymentPriceMax": "Summa ko'pi bilan {{value}} bo'lishi kerak!",
+					"paymentMonth": "Necha oyda ekanligini kiritish majburiy!",
+					"paymentMonthMax": "Ko'pi bilan {{value}} oy bo'lishi kerak!",
+					"paymentDate": "To'lovning birinchi sanasini kiritish majburiy!",
+					"paymentDateValid": "Vaqti to'g'ri bo'lishi kerak!",
+					"paymentDateMin": "Sana 2000-yildan katta bo'lishi lozim!"
+				},
+				"alerts": {
+					"warning": {
+						"repairType": "Iltimos uyning ta'mir turini tanlang!",
+						"paymentsNumber": "Jadvaldagi to'lovlar soni kreditni qaytarish muddati bilan mos emas!",
+						"leftPrice": "Qoldiq summada xatolik bor!"
+					}
+				}
+			},
+			"four": {
+				"createContract": "Shartnoma tuzish",
+				"alerts": {
+					"success": "Yangi № {{value}} shartnoma muvaffaqiyatli yaratildi"
+				}
+			}
+		}
+	},
+	"payment": {
+		"title": "To'lovlar ro'yxati",
+		"accounter": {
+			"title": "Shartnomalar ro'yxati",
+			"completed": "Tugallangan",
+			"cancelled": "Bekor qilingan"
+		},
+		"add": {
+			"title": "To'lov qilish",
+			"clientName": "Mijoz nomi",
+			"contract": {
+				"name": "Shartnoma",
+				"sum": "Summa",
+				"homeDetails": "Xonadon: {{number}}-xonadon, {{stage}}-qavat, {{rooms}} xona",
+				"phone": "Telefon raqami",
+				"startPrice": "Boshlang'ich to'lov",
+				"details": "Shartnoma ma'lumotlari",
+				"objectName": "Turarjoy majmuasi",
+				"homeNumber": "Xonadon raqami",
+				"totalSum": "Umumiy summa",
+				"startSum": "Boshlang'ich summa",
+				"leftSum": "Qoldiq summa",
+				"paidSum": "To'langan summa",
+				"discount": "Chegirma",
+				"cancelled": "Shartnoma bekor qilingan",
+				"completed": "Shartnoma tugallangan"
+			},
+			"paymentTable": {
+				"title": "To'lov grafigi"
+			},
+			"paymentHistoryTable": {
+				"title": "To'lov tarixi"
+			}
+		},
+		"addModal": {
+			"title": "To'lov qilish",
+			"validation": {
+				"sum": "To'lov miqdorini kiritish majburiy!",
+				"typeId": "To'lov turini tanlash majburiy!",
+				"dateValid": "Vaqti to'g'ri bo'lishi kerak!",
+				"date": "To'lov sanasi kiritilishi shart!"
+			},
+			"alerts": {
+				"success": "Shartnoma №{{id}} ga to'lov muvaffaqiyatli amalga oshirildi!"
+			}
+		},
+		"contractView": {
+			"title": "Shartnoma",
+			"header": {
+				"sum": "Shartnoma summasi",
+				"startPrice": "Boshlang'ich to'lov",
+				"priceForSquare": "1 m<1>2</1> uchun to'lov miqdori",
+				"discount": "Chegirma miqdori",
+				"monthlyLeft": "Oylik qarzdorlik",
+				"noMonthlyLeft": "Mavjud emas",
+				"leftPrice": "Qolgan to'lov miqdori",
+				"comment": "Kommentariya"
+			},
+			"homeDetail": {
+				"objectName": "Obyekt nomi",
+				"blockName": "Blok nomi",
+				"homeNumber": "Uy raqami",
+				"stage": "Qavati",
+				"rooms": "Xonalar soni",
+				"area": "Maydoni",
+				"isrepaired": "Ta'mir holati"
+			},
+			"clientPhysical": {
+				"custom": "Mijoz",
+				"birthday": "Tug'ilgan sanasi",
+				"phone": "Telefon raqami",
+				"passportSeries": "Passport seriya raqami",
+				"issue": "Passport berilgan sana",
+				"authority": "Passport berilgan joy",
+				"home": "Yashash manzili",
+				"workPlace": "Ish joyi"
+			},
+			"clientLegal": {
+				"name": "Tashkilot nomi",
+				"phone": "Telefon raqami",
+				"address": "Tashkilot manzili",
+				"accountNumber": "Tashkilot hisob raqami",
+				"tin": "Tashkilot STIR(INN)",
+				"mfo": "Tashkilot MFO",
+				"oked": "Tashkilot OKED"
+			},
+			"action": {
+				"refresh": "Ma'lumotlarni yangilash",
+				"download": "Shartnomani yuklab olish",
+				"pay": "To'lov qilish"
+			},
+			"staff": "Shartnoma tuzgan mas'ul xodim",
+			"paymentHistory": "To'lov tarixi",
+			"paymentTable": "To'lov grafigi",
+			"cancelled": "Shartnoma bekor qilingan",
+			"completed": "Shartnoma tugallangan"
+		},
+		"action": {
+			"paid": "To'landi",
+			"notPaid": "To'lanmagan",
+			"halfPaid": "Chala to'langan"
+		}
+	},
+	"currency": {
+		"title": "Valyutaning so'mdagi miqdori ro'yxati",
+		"modal": {
+			"title": "Valyutaning so'mdagi yangi miqdorini qo'shish",
+			"validation": {
+				"sum": "Valyutaning so'mdagi miqdorini kiritish majburiy!"
+			},
+			"alerts": {
+				"success": "Valyuta so'mdagi miqdori muvaffaqiyatli yaratildi!"
+			}
+		}
+	},
+	"client": {
+		"title": "Mijozlar ro'yxati",
+		"view": {
+			"title": "{{surname}} {{name}} {{middleName}} ma'lumotlari",
+			"physical": {
+				"name": "Ismi",
+				"surname": "Familiyasi",
+				"middleName": "Sharifi",
+				"passportSeries": "Passport seriya va raqami",
+				"issue": "Passport berilgan sana",
+				"authority": "Passport berilgan joy",
+				"workPlace": "Ish joyi",
+				"birthday": "Tug'ilgan kuni",
+				"phone": "Telefon raqami",
+				"clientType": "Mijoz turi",
+				"region": "Viloyat",
+				"city": "Tuman/Shahar",
+				"address": "Manzili"
+			},
+			"legal": {
+				"name": "Tashkilot nomi",
+				"tin": "Tashkilot STIR(INN)",
+				"mfo": "Tashkilot MFO",
+				"oked": "Tashkilot OKED",
+				"accountNumber": "Tashkilot hisob raqami",
+				"bank": "Bank nomi",
+				"phone": "Telefon raqami",
+				"clientType": "Mijoz turi",
+				"region": "Viloyat",
+				"city": "Tuman/Shahar",
+				"address": "Tashkilot manzili"
+			},
+			"contract": "Shartnoma: {{value}}",
+			"clientContracts": "Mijoz bilan tuzilgan shartnomalar",
+			"noContractsFound": "Shartnomalar topilmadi!",
+			"action": {
+				"addPassword": "Mijozga login va parol yaratish",
+				"editPassword": "Mijoz login va parolini o'zgartirish"
+			}
+		},
+		"addEdit": {
+			"editTitle": "Mijoz ma'lumotlarini yangilash",
+			"addTitle": "Mijoz yaratish",
+			"validation": {
+				"physical": {
+					"name": "Ismni kiritish majburiy!",
+					"middleName": "Sharifni kiritish majburiy!",
+					"surname": "Familiyani kiritish majburiy!",
+					"phone": "Telefon raqamni kiritish majburiy!",
+					"phoneValid": "Telefon raqami to'g'ri kiritilishi lozim!",
+					"phone2Valid": "Qo'shimcha telefon raqami to'g'ri kiritilishi lozim!",
+					"passportSeries": "Passport seriya raqamini kiritish majburiy!",
+					"issue": "Passport berilgan sanani kiritish majburiy!",
+					"issueValid": "Vaqti to'g'ri bo'lishi kerak!",
+					"authority": "Passport berilgan joyni kiritish majburiy!",
+					"birthday": "Tug'ilgan sanani kiritish majburiy!",
+					"birthdayValid": "Vaqti to'g'ri bo'lishi kerak!",
+					"region": "Viloyatni tanlash majburiy!",
+					"city": "Shaharni kiritish majburiy!",
+					"address": "Yashash manzilini kiritish majburiy!",
+					"workPlace": "Ish joyini kiritish majburiy!"
+				},
+				"legal": {
+					"name": "Tashkilot nomini kiritish majburiy!",
+					"phone": "Telefon raqamni kiritish majburiy!",
+					"phoneValid": "Telefon raqami to'g'ri kiritilishi lozim!",
+					"phone2Valid": "Qo'shimcha telefon raqami to'g'ri kiritilishi lozim!",
+					"region": "Viloyatni tanlash majburiy!",
+					"city": "Shaharni kiritish majburiy!",
+					"address": "Tashkilot manzilini kiritish majburiy!",
+					"tin": "Tashkilotning STIR ini kiritish majburiy!",
+					"mfo": "Tashkilotning MFO sini kiritish majburiy!",
+					"oked": "Tashkilotning OKED ini kiritish majburiy!",
+					"accountNumber": "Tashkilotning hisob raqamini kiritish majburiy!",
+					"accountNumberMin": "Tashkilot hisob raqami kamida {{ value }} ta belgidan iborat bo'lishi kerak!",
+					"accountNumberMax": "Tashkilot hisob raqami ko'pi bilan {{ value }} ta belgidan iborat bo'lishi kerak!",
+					"bank": "Bank nomini kiritish majburiy!"
+				}
+			}
+		},
+		"contract": {
+			"header": {
+				"sum": "Shartnoma summasi",
+				"startPrice": "Boshlang'ich to'lov",
+				"priceForSquare": "1 m<1>2</1> uchun to'lov miqdori",
+				"discount": "Chegirma miqdori",
+				"monthlyLeft": "Oylik qarzdorlik",
+				"noMonthlyLeft": "Mavjud emas",
+				"leftPrice": "Qolgan to'lov miqdori",
+				"comment": "Kommentariya"
+			},
+			"homeDetail": {
+				"objectName": "Obyekt nomi",
+				"blockName": "Blok nomi",
+				"homeNumber": "Uy raqami",
+				"stage": "Qavati",
+				"rooms": "Xonalar soni",
+				"area": "Maydoni",
+				"isrepaired": "Ta'mir holati"
+			},
+			"action": {
+				"refresh": "Ma'lumotlarni yangilash",
+				"download": "Shartnomani yuklab olish"
+			},
+			"staff": "Shartnoma tuzgan mas'ul xodim",
+			"paymentHistory": "To'lov tarixi",
+			"paymentTable": "To'lov grafigi",
+			"completed": "Shartnoma tugallangan"
+		},
+		"login": {
+			"editTitle": "{{ value }} login va parolini yangilash",
+			"addTitle": "Mijozga login va parol yaratish",
+			"validation": {
+				"name": "Mijoz nomini kiritish majburiy!",
+				"nameMin": "Mijoz nomi kamida {{value}} ta belgidan iborat bo'lishi kerak!",
+				"login": "Loginni kiritish majburiy!",
+				"password": "Parolni kiritish majburiy!",
+				"passwordMin": "Parol kamida {{value}} ta belgidan iborat bo'lishi lozim!"
+			}
+		}
+	},
+	"lead": {
+		"title": "Lidlar ro'yxati",
+		"tab": {
+			"base": "Boshlang'ich",
+			"bought": "Uy sotib olgan",
+			"cancelled": "Bekor qilingan"
+		},
+		"alerts": {
+			"success": {
+				"copy": "Lid ma'lumotlari muvaffaqiyatli nusxalandi!",
+				"accept": "Lidning uy sotib olganligi muvaffaqiyatli tasdiqlandi!",
+				"cancelled": "Lid muvaffaqiyatli tarzda bekor qilindi!"
+			}
+		},
+		"action": {
+			"acceptBought": "Lid uy sotib olganligini tasdiqlash",
+			"writeComment": "Kommentariya yozish",
+			"acceptCancellation": "Lid bekor qilinganligini tasdiqlash",
+			"currentLead": "Joriy Lid qilib belgilash"
+		},
+		"addEditModal": {
+			"editTitle": "Lid ma'lumotlarini yangilash",
+			"addTitle": "Lid yaratish",
+			"validation": {
+				"name": "Mijozning to'liq nomini kiritish majburiy!",
+				"nameMin": "Mijozning nomi kamida {{value}} ta belgidan iborat bo'lishi kerak!",
+				"phone": "Telefon raqamini kiritish majburiy!",
+				"phoneValid": "Telefon raqami to'g'ri kiritilishi lozim!",
+				"comeId": "Mijoz manbasini kiritish majburiy!",
+				"typeId": "Mijoz qiziqishi turini kiritish majburiy!",
+				"date": "Sana kiritilishi shart!",
+				"dateValid": "Vaqti to'g'ri bo'lishi kerak!"
+			}
+		},
+		"view": {
+			"title": "{{name}} ma'lumotlari",
+			"name": "Lid nomi",
+			"phone": "Telefon raqami",
+			"date": "Sana",
+			"source": "Manba",
+			"interest": "Qiziqishi turi",
+			"staff": "Mas'ul xodim",
+			"addComment": "Kommentariya qo'shish",
+			"homes": {
+				"title": "Biriktirilgan uylar ro'yxati",
+				"stage": "Qavati",
+				"rooms": "Xonalar soni",
+				"areaAll": "Umumiy maydoni",
+				"residentType": "Bino turi",
+				"repairType": "Ta'mir holati",
+				"staff": "Mas'ul xodim"
+			},
+			"comments": {
+				"title": "Kommentariyalar"
+			}
+		},
+		"sourceModal": {
+			"title": "Manba yaratish yoki o'zgartirish",
+			"list": "Manbalar ro'yxati",
+			"validation": {
+				"name": "Manba nomi kamida {{value}} ta belgidan iborat bo'lishi kerak!"
+			}
+		},
+		"typeModal": {
+			"title": "Qiziqish turini yaratish yoki o'zgartirish",
+			"list": "Turlar ro'yxati",
+			"validation": {
+				"name": "Qiziqish turi kamida {{value}} ta belgidan iborat bo'lishi kerak!"
+			}
+		},
+		"commentModal": {
+			"title": "Lidga kommentariya qo'shish",
+			"validation": {
+				"comment": "Kommentariyani kiritish majburiy!"
+			},
+			"alerts": {
+				"success": "Kommentariya muvaffaqiyatli qo'shildi!"
+			}
+		},
+		"shaxmatka": {
+			"title": "Obyektlar ro'yxati",
+			"shortTitle": "Shaxmatka",
+			"currentLead": "Joriy Lid",
+			"homeType": {
+				"disabled": "Nofaol",
+				"ordered": "Band qilingan",
+				"sold": "Sotilgan",
+				"free": "Bo'sh"
+			},
+			"type": {
+				"shaxmatka1": "Shaxmatka1",
+				"shaxmatka2": "Shaxmatka2",
+				"table": "Jadval"
+			},
+			"homeDetail": {
+				"title": "{{blockName}} №{{homeNumber}} uy ma'lumotlari",
+				"homeNumber": "Uy raqami",
+				"stage": "Qavati",
+				"rooms": "Xonalar soni",
+				"areaAll": "Umumiy maydoni",
+				"priceForSquare": "m<1>2</1> narxi",
+				"startPrice": "Boshlang'ich to'lov",
+				"repaired": "m<1>2</1> ta'mirli",
+				"norepaired": "m<1>2</1> ta'mirsiz",
+				"residentType": "Bino turi",
+				"repairType": "Ta'mir holati",
+				"position": "Holati"
+			},
+			"alerts": {
+				"success": "Ushbu uy joriy Lidga muvaffaqiyatli qo'shildi!",
+				"warning": "Joriy Lid belgilanmagan!"
+			}
+		}
+	},
+	"news": {
+		"title": "Yangiliklar ro'yxati",
+		"editTitle": "Yangilik ma'lumotlarini yangilash",
+		"addTitle": "Yangilikni yaratish",
+		"validation": {
+			"title": "Yangilik sarlavhasini kiritish majburiy!",
+			"body": "Yangilik matnini tanlash majburiy!",
+			"link": "Yangilik linkini kiritish majburiy!"
+		},
+		"fields": {
+			"title": "Yangilik sarlavhasi",
+			"link": "Yangilik linki",
+			"body": "Yangilik matni"
+		}
+	},
+	"arrear": {
+		"title": "Qarzdorlik ro'yxati"
+	},
+	"sms": {
+		"title": "SMS"
+	},
+	"change": {
+		"title": "Mijoz va shartnoma ma'lumotlarini o'zgartirish",
+		"tab": {
+			"client": {
+				"title": "Mijoz sozlamalari",
+				"validation": {
+					"physical": {
+						"name": "Ismni kiritish majburiy!",
+						"middleName": "Sharifni kiritish majburiy!",
+						"surname": "Familiyani kiritish majburiy!",
+						"phone": "Telefon raqamni kiritish majburiy!",
+						"phoneValid": "Telefon raqami to'g'ri kiritilishi lozim!",
+						"phone2Valid": "Qo'shimcha telefon raqami to'g'ri kiritilishi lozim!",
+						"passportSeries": "Passport seriya raqamini kiritish majburiy!",
+						"issue": "Passport berilgan sanani kiritish majburiy!",
+						"issueValid": "Vaqti to'g'ri bo'lishi kerak!",
+						"authority": "Passport berilgan joyni kiritish majburiy!",
+						"birthday": "Tug'ilgan sanani kiritish majburiy!",
+						"birthdayValid": "Vaqti to'g'ri bo'lishi kerak!",
+						"region": "Viloyatni tanlash majburiy!",
+						"city": "Shaharni kiritish majburiy!",
+						"address": "Yashash manzilini kiritish majburiy!",
+						"workPlace": "Ish joyini kiritish majburiy!"
+					},
+					"legal": {
+						"name": "Tashkilot nomini kiritish majburiy!",
+						"phone": "Telefon raqamni kiritish majburiy!",
+						"phoneValid": "Telefon raqami to'g'ri kiritilishi lozim!",
+						"phone2Valid": "Qo'shimcha telefon raqami to'g'ri kiritilishi lozim!",
+						"region": "Viloyatni tanlash majburiy!",
+						"city": "Shaharni kiritish majburiy!",
+						"address": "Tashkilot manzilini kiritish majburiy!",
+						"tin": "Tashkilotning STIR ini kiritish majburiy!",
+						"mfo": "Tashkilotning MFO sini kiritish majburiy!",
+						"oked": "Tashkilotning OKED ini kiritish majburiy!",
+						"accountNumber": "Tashkilotning hisob raqamini kiritish majburiy!",
+						"accountNumberMin": "Tashkilot hisob raqami kamida {{ value }} ta belgidan iborat bo'lishi kerak!",
+						"accountNumberMax": "Tashkilot hisob raqami ko'pi bilan {{ value }} ta belgidan iborat bo'lishi kerak!",
+						"bank": "Bank nomini kiritish majburiy!"
+					}
+				},
+				"alerts": {
+					"success": "Mijoz muvaffaqiyatli yaratildi!"
+				},
+				"action": {
+					"update": "Ma'lumotlarni yangilash"
+				},
+				"clientsData": "Mijozlar bazasi",
+				"noClientFound": "Bunday mijoz bazadan topilmadi!"
+			},
+			"contract": {
+				"title": "Shartnoma sozlamalari",
+				"validation": {
+					"name": "Shartnoma raqamini kiritish shart!",
+					"isrepaired": "Ta'mir holati tanlanilishi shart!",
+					"clientId": "Mijozni tanlash majburiy!",
+					"date": "Sana kiritilishi shart!",
+					"dateValid": "Vaqti to'g'ri bo'lishi kerak!",
+					"sum": "Shartnoma summasini kiritish majburiy!",
+					"startPrice": "Boshlang'ich to'lov miqdorini kiritish majburiy!",
+					"month": "To'lov muddati(necha oyda)ni kiritish majburiy!",
+					"homeId": "Uyni tanlash majburiy!",
+					"staffId": "Mas'ul xodimni tanlash majburiy!"
+				},
+				"alerts": {
+					"success": "Shartnoma ma'lumotlari muvaffaqiyatli yangilandi!"
+				},
+				"action": {
+					"update": "Shartnoma ma'lumotlarini yangilash"
+				},
+				"contractsData": "Shartnomalar bazasi",
+				"sumAll": "Jami summa",
+				"month": "Muddati: {{value}} oy",
+				"date": "Sana",
+				"noContractFound": "Bunday shartnoma bazadan topilmadi!"
+			},
+			"paymentList": {
+				"title": "To'lov grafigi sozlamalari",
+				"alerts": {
+					"success": "Shartnoma to'lov grafigi muvaffaqiyatli yangilandi!",
+					"warning": {
+						"startPriceAndStartDate": "Boshlang'ich to'lov yoki boshlang'ich to'lov sanasida xatolik mavjud!",
+						"paymentsNumber": "Jadvaldagi to'lovlar soni kreditni qaytarish muddati bilan mos emas!",
+						"leftPrice": "Qoldiq summada xatolik bor!"
+					}
+				},
+				"contractSum": "Shartnoma summasi",
+				"startPrice": "Boshlang'ich to'lov",
+				"discount": "Chegirma miqdori",
+				"changeStartDateAndInterval": "Birinchi to'lov sanasi va vaqt oralig'ini o'zgartirish",
+				"automaticTable": "To'lov jadvalini avtomatik shakllantirish",
+				"manuallyTable": "To'lov jadvalini qo'lda shakllantirish",
+				"updatePaymentList": "To'lov grafigini yangilash",
+				"noPaymentListFound": "Bunday shartnoma to'lov grafigi topilmadi!",
+				"sumAll": "Jami summa",
+				"leftSum": "Qoldiq summa",
+				"addPayment": "Jadvalga to'lov qo'shish",
+				"deleteAll": "Barchasini o'chirish",
+				"fields": {
+					"sum": "Summa",
+					"month": "Necha oy",
+					"date": "To'lovning birinchi sanasi"
+				},
+				"validation": {
+					"price": "Summani kiritish majburiy",
+					"priceMax": "Summa ko'pi bilan {{value}} bo'lishi kerak!",
+					"month": "Necha oyda ekanligini kiritish majburiy!",
+					"monthMax": "Ko'pi bilan {{value}} oy bo'lishi kerak!",
+					"date": "To'lovning birinchi sanasini kiritish majburiy!",
+					"dateValid": "Vaqti to'g'ri bo'lishi kerak!",
+					"dateMin": "Sana 2000-yildan katta bo'lishi lozim!"
+				}
+			},
+			"payment": {
+				"title": "To'lov sozlamalari",
+				"noPaymentHistoryFound": "Bunday shartnoma to'lovlar tarixi topilmadi!"
+			}
+		},
+		"paymentUpdateModal": {
+			"title": "To'lovni yangilash",
+			"validation": {
+				"sum": "To'lov miqdorini kiritish majburiy!",
+				"typeId": "To'lov turini tanlash majburiy!",
+				"date": "To'lov sanasi kiritilishi shart!",
+				"dateValid": "Vaqti to'g'ri bo'lishi kerak!"
+			},
+			"alerts": {
+				"success": "To'lov muvaffaqiyatli o'zgartirildi!"
+			}
+		},
+		"startDateAndIntervalModal": {
+			"title": "Birinchi to'lov sanasi va vaqt oralig'ini yangilash"
+		}
+	},
+	"paymentChange": {
+		"title": "To'lov o'zgarishlari"
+	},
+	"block": {
+		"title": "Bloklar ro'yxati",
+		"addModal": {
+			"title": "Blok yaratish",
+			"validation": {
+				"name": "Blok nomini kiritish majburiy!",
+				"nameMin": "Blok nomi kamida {{value}} ta belgidan iborat bo'lishi kerak!",
+				"objectId": "Obyektni tanlash majburiy!",
+				"homesOnFloor": "Qavatdagi uylar sonini kiritish majburiy!",
+				"startNumber": "Tartib raqamini kiritish majburiy!"
+			},
+			"alerts": {
+				"success": "Yangi \"{{value}}\" muvaffaqiyatli yaratildi!"
+			}
+		},
+		"imageModal": {
+			"title": "\"{{objectName}} {{blockName}}\" ga planirovka qo'shish",
+			"validation": {
+				"name": "Xodim nomini kiritish majburiy!",
+				"nameMin": "Xodim nomi kamida {{value}} ta belgidan iborat bo'lishi kerak!",
+				"image": "Rasmni yuklash majburiy!"
+			},
+			"alerts": {
+				"success": "\"{{objectName}} {{blockName}}\" ga yangi planirovka muvaffaqiyatli qo'shildi!"
+			},
+			"uploadPlan": "Planirovkani yuklash"
+		}
+	},
+	"settings": {
+		"title": "Sozlamalar",
+		"company": "Kompaniyalar",
+		"staffSettings": "Xodimlar",
+		"homeSettings": "Uy sozlamalari",
+		"homeExcel": "Uy ma'lumotlarini Exceldan yuklash",
+		"clientExcel": "Mijoz ma'lumotlarini Exceldan yuklash",
+		"contractExcel": "Shartnoma ma'lumotlarini Exceldan yuklash",
+		"client": {
+			"title": "Mijoz ma'lumotlarini Exceldan yuklash",
+			"options": {
+				"name": "Ism",
+				"middleName": "Sharif",
+				"surname": "Familiya",
+				"phone": "Telefon raqami",
+				"phone2": "Qo'shimcha telefon raqami",
+				"passportSeries": "Passport seriya raqami",
+				"issue": "Passport berilgan sana",
+				"authority": "Passport berilgan joy",
+				"birthday": "Tug'ilgan sana",
+				"regionId": "Viloyat",
+				"city": "Shahar",
+				"home": "Yashash manzili",
+				"workPlace": "Ish joyi"
+			},
+			"alerts": {
+				"success": "Mijozlar muvaffaqiyatli yaratildi!"
+			}
+		},
+		"companies": {
+			"title": "Kompaniyalar ro'yxati",
+			"editTitle": "{{ value }} ma'lumotlarini yangilash",
+			"addTitle": "Kompaniya yaratish",
+			"validation": {
+				"name": "Tashkilot nomini kiritish majburiy!",
+				"nameMin": "Tashkilot nomi kamida {{ value }} ta belgidan iborat bo'lishi kerak!",
+				"director": "Tashkilot direktorini kiritish majburiy!",
+				"phone": "Telefon raqamini kiritish majburiy!",
+				"phoneValid": "Telefon raqami to'g'ri kiritilishi lozim!",
+				"tin": "Tashkilotning STIR ini kiritish majburiy!",
+				"mfo": "Tashkilotning MFO sini kiritish majburiy!",
+				"oked": "Tashkilotning OKED ini kiritish majburiy!",
+				"accountNumber": "Tashkilotning hisob raqamini kiritish majburiy!",
+				"accountNumberMin": "Tashkilot hisob raqami kamida {{ value }} ta belgidan iborat bo'lishi kerak!",
+				"accountNumberMax": "Tashkilot hisob raqami ko'pi bilan {{ value }} ta belgidan iborat bo'lishi kerak!",
+				"bank": "Bank nomini kiritish majburiy!",
+				"regionId": "Viloyatni tanlash majburiy!",
+				"city": "Shaharni kiritish majburiy!",
+				"address": "Tashkilot manzilini kiritish majburiy!"
+			}
+		},
+		"contract": {
+			"title": "Shartnoma ma'lumotlarini Exceldan yuklash",
+			"options": {
+				"name": "Shartnoma nomi",
+				"homeNumber": "Uy raqami",
+				"square": "Umumiy maydoni",
+				"isrepaired": "Ta'mir holati",
+				"startPrice": "Boshlang'ich to'lov",
+				"price": "1 m<sup>2</sup> narxi",
+				"month": "To'lov muddati(oy)",
+				"startDate": "Boshlang'ich to'lov sanasi",
+				"discount": "Chegirma miqdori",
+				"comment": "Kommentariya",
+				"passportSeries": "Passport seriya raqami",
+				"issue": "Passport berilgan sana",
+				"authority": "Passport berilgan joy",
+				"birthday": "Tug'ilgan sana",
+				"regionId": "Viloyat",
+				"city": "Shahar",
+				"home": "Yashash manzili",
+				"workPlace": "Ish joyi"
+			},
+			"validation": {
+				"blockId": "Blokni tanlash majburiy!",
+				"objectId": "Obyektni tanlash majburiy!"
+			},
+			"alerts": {
+				"success": "Shartnomalar muvaffaqiyatli yaratildi!"
+			}
+		},
+		"home": {
+			"title": "Uy sozlamalari",
+			"deactivateHome": "Aktiv uyni deaktiv qilish",
+			"validation": {
+				"objectId": "Obyektni tanlash majburiy!",
+				"blockId": "Blokni tanlash majburiy!",
+				"homeId": "Uyni tanlash majburiy!"
+			},
+			"table": {
+				"blockName": "Blok nomi",
+				"homeNumber": "Uy raqami",
+				"homeDetails": "Uy ma'lumotlari (q.|x.s.|m<1>2</1>)"
+			},
+			"modal": {
+				"activate": {
+					"title": "Deaktiv uyni aktiv qilish",
+					"alerts": {
+						"success": "Uy muvaffaqiyatli aktiv qilindi!"
+					},
+					"warningText": "Siz haqiqatdan ham ushbu uyning holatini aktiv qilmoqchimisiz? U holda \"Tasdiqlash\" tugmasini bosing!"
+				},
+				"deactivate": {
+					"title": "Aktiv uyni deaktiv qilish",
+					"alerts": {
+						"success": "Uy muvaffaqiyatli deaktiv qilindi!"
+					},
+					"validation": {
+						"objectId": "Obyektni tanlash majburiy!",
+						"blockId": "Blokni tanlash majburiy!",
+						"homeId": "Uyni tanlash majburiy!"
+					},
+					"details": "{{stage}}-qavat, {{rooms}} xonali, {{square}} m<1>2</1>"
+				}
+			},
+			"excel": {
+				"title": "Uy ma'lumotlarini Exceldan yuklash",
+				"options": {
+					"number": "Uy raqami",
+					"stage": "Qavati",
+					"rooms": "Xonalar soni",
+					"square": "Umumiy maydoni",
+					"repaired": "m<sup>2</sup> ta'mirli narxi",
+					"norepaired": "m<sup>2</sup> ta'mirsiz narxi",
+					"start": "Boshlang'ich to'lov",
+					"islive": "Bino turi",
+					"isrepaired": "Ta'mir holati",
+					"status": "Holati"
+				},
+				"validation": {
+					"name": "Blok nomini kiritish majburiy!",
+					"nameMin": "Blok nomi kamida {{value}} ta belgidan iborat bo'lishi kerak!",
+					"objectId": "Obyektni tanlash majburiy!"
+				},
+				"alerts": {
+					"success": "Yangi \"{{value}}\" muvaffaqiyatli yaratildi!"
+				},
+				"sort": "Uy raqami va qavati bo'yicha saralash"
+			}
+		},
+		"staff": {
+			"title": "Xodimlar ro'yxati",
+			"editTitle": "{{ value }} ma'lumotlarini yangilash",
+			"addTitle": "Xodim yaratish",
+			"validation": {
+				"name": "Xodim nomini kiritish majburiy!",
+				"nameMin": "Xodim nomi kamida {{value}} ta belgidan iborat bo'lishi kerak!",
+				"login": "Loginni kiritish majburiy!",
+				"password": "Parolni kiritish majburiy!",
+				"passwordMin": "Parol kamida {{value}} ta belgidan iborat bo'lishi lozim!",
+				"status": "Xodim statusini belgilash majburiy!",
+				"role": "Xodim rolini tanlash majburiy!"
+			}
+		}
+	},
+	"expense": {
+		"title": "Chiqimlar ro'yxati",
+		"modal": {
+			"title": "Chiqim qilish",
+			"validation": {
+				"sum": "Chiqim miqdorini kiritish majburiy!",
+				"paymentType": "Chiqim turini tanlash majburiy!",
+				"comment": "Chiqim sababini ko'rsating!"
+			},
+			"alerts": {
+				"success": "Yangi rasxod muvaffaqiyatli qo'shildi!"
+			},
+			"fields": {
+				"sum": "Chiqim miqdori",
+				"paymentType": "Chiqim turi",
+				"comment": "Chiqim maqsadi"
+			}
+		}
+	},
+	"profile": {
+		"title": "Profil sozlamalari"
+	}
+}

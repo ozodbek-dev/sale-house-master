@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+	.word-break-all {
+		word-break: break-all;
+	}
+
+	.word-break-keep {
+		word-break: keep-all;
+	}
+
+	.word-break-normal {
+		word-break: normal;
+	}
+
+	.word-break-word {
+		word-break: break-word;
+	}
+
+}
